@@ -3,164 +3,166 @@ extends layout
 block content
     script(type='text/javascript' src='/javascripts/client.js')
     div.container
-        div.row
-            div.col-xs-6.col-sm-4.col-md-3.col-lg-3.col-sm-offset-2.col-md-offset-3.col-lg-offset-3
-                span 3.3V
-            div.col-xs-6.col-sm-4.col-md-3.col-lg-3
-                div.pull-right 
-                    span 5V
-        div.row
-            div.col-xs-6.col-sm-4.col-md-3.col-lg-3.col-sm-offset-2.col-md-offset-3.col-lg-offset-3
-                span GPIO 2 (SDA)
-                div.pull-right
-                    input(data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="2").gpio-checkbox
-            div.col-xs-6.col-sm-4.col-md-3.col-lg-3
-                div.pull-right 
-                    span 5V
-        div.row
-            div.col-xs-6.col-sm-4.col-md-3.col-lg-3.col-sm-offset-2.col-md-offset-3.col-lg-offset-3
-                span GPIO 3 (SCL)
-                div.pull-right
-                    input(data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="3").gpio-checkbox
-            div.col-xs-6.col-sm-4.col-md-3.col-lg-3
-                div.pull-right 
-                    span Ground
-        div.row
-            div.col-xs-6.col-sm-4.col-md-3.col-lg-3.col-sm-offset-2.col-md-offset-3.col-lg-offset-3
-                span GPIO 4 (GPCLK0)
-                div.pull-right
-                    input(data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="4").gpio-checkbox
-            div.col-xs-6.col-sm-4.col-md-3.col-lg-3
-                input(data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="14").gpio-checkbox
-                div.pull-right 
-                    span GPIO 14 (TXD)
-        div.row
-            div.col-xs-6.col-sm-4.col-md-3.col-lg-3.col-sm-offset-2.col-md-offset-3.col-lg-offset-3
-                span Ground
-            div.col-xs-6.col-sm-4.col-md-3.col-lg-3
-                input(data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="15").gpio-checkbox
-                div.pull-right 
-                    span GPIO 15 (RXD)
-        div.row
-            div.col-xs-6.col-sm-4.col-md-3.col-lg-3.col-sm-offset-2.col-md-offset-3.col-lg-offset-3
-                span GPIO 17
-                div.pull-right
-                    input(data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="17").gpio-checkbox
-            div.col-xs-6.col-sm-4.col-md-3.col-lg-3
-                input(data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="18").gpio-checkbox
-                div.pull-right 
-                    span GPIO 18 (PCM_C)
-        div.row
-            div.col-xs-6.col-sm-4.col-md-3.col-lg-3.col-sm-offset-2.col-md-offset-3.col-lg-offset-3
-                span GPIO 27 (PCM_D)
-                div.pull-right
-                    input(data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="27").gpio-checkbox
-            div.col-xs-6.col-sm-4.col-md-3.col-lg-3
-                div.pull-right 
-                    span Ground
-        div.row
-            div.col-xs-6.col-sm-4.col-md-3.col-lg-3.col-sm-offset-2.col-md-offset-3.col-lg-offset-3
-                span GPIO 22
-                div.pull-right
-                    input(data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="22").gpio-checkbox
-            div.col-xs-6.col-sm-4.col-md-3.col-lg-3
-                input(data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="23").gpio-checkbox
-                div.pull-right 
-                    span GPIO 23
-        div.row
-            div.col-xs-6.col-sm-4.col-md-3.col-lg-3.col-sm-offset-2.col-md-offset-3.col-lg-offset-3
-                span 3.3V
-            div.col-xs-6.col-sm-4.col-md-3.col-lg-3
-                input(data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="24").gpio-checkbox
-                div.pull-right 
-                    span GPIO 24
-        div.row
-            div.col-xs-6.col-sm-4.col-md-3.col-lg-3.col-sm-offset-2.col-md-offset-3.col-lg-offset-3
-                span GPIO 10 (MOSI)
-                div.pull-right
-                    input(data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="10").gpio-checkbox
-            div.col-xs-6.col-sm-4.col-md-3.col-lg-3
-                div.pull-right
-                    span Ground
-        div.row
-            div.col-xs-6.col-sm-4.col-md-3.col-lg-3.col-sm-offset-2.col-md-offset-3.col-lg-offset-3
-                span GPIO 9 (MISO)
-                div.pull-right
-                    input(data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="9").gpio-checkbox
-            div.col-xs-6.col-sm-4.col-md-3.col-lg-3
-                input(data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="25").gpio-checkbox
-                div.pull-right 
-                    span GPIO 25
-        div.row
-            div.col-xs-6.col-sm-4.col-md-3.col-lg-3.col-sm-offset-2.col-md-offset-3.col-lg-offset-3
-                span GPIO 11 (SCKL)
-                div.pull-right
-                    input(data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="11").gpio-checkbox
-            div.col-xs-6.col-sm-4.col-md-3.col-lg-3
-                input(data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="8").gpio-checkbox
-                div.pull-right 
-                    span GPIO 8 (CE0)
-        div.row
-            div.col-xs-6.col-sm-4.col-md-3.col-lg-3.col-sm-offset-2.col-md-offset-3.col-lg-offset-3
-                span Ground
-            div.col-xs-6.col-sm-4.col-md-3.col-lg-3
-                input(data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="7").gpio-checkbox
-                div.pull-right 
-                    span GPIO 7 (CE1)
-        div.row
-            div.col-xs-6.col-sm-4.col-md-3.col-lg-3.col-sm-offset-2.col-md-offset-3.col-lg-offset-3
-                span ID_SD
-            div.col-xs-6.col-sm-4.col-md-3.col-lg-3 
-                div.pull-right 
-                    span ID_SC
-        div.row
-            div.col-xs-6.col-sm-4.col-md-3.col-lg-3.col-sm-offset-2.col-md-offset-3.col-lg-offset-3
-                span GPIO 5
-                div.pull-right
-                    input(data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="5").gpio-checkbox
-            div.col-xs-6.col-sm-4.col-md-3.col-lg-3
-                div.pull-right 
-                    span Ground
-        div.row
-            div.col-xs-6.col-sm-4.col-md-3.col-lg-3.col-sm-offset-2.col-md-offset-3.col-lg-offset-3
-                span GPIO 6
-                div.pull-right
-                    input(data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="6").gpio-checkbox
-            div.col-xs-6.col-sm-4.col-md-3.col-lg-3
-                input(data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="12").gpio-checkbox
-                div.pull-right 
-                    span GPIO 12
-        div.row
-            div.col-xs-6.col-sm-4.col-md-3.col-lg-3.col-sm-offset-2.col-md-offset-3.col-lg-offset-3
-                span GPIO 13
-                div.pull-right
-                    input(data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="13").gpio-checkbox
-            div.col-xs-6.col-sm-4.col-md-3.col-lg-3
-                div.pull-right 
-                    span Ground
-        div.row
-            div.col-xs-6.col-sm-4.col-md-3.col-lg-3.col-sm-offset-2.col-md-offset-3.col-lg-offset-3
-                span GPIO 19 (MISO)
-                div.pull-right
-                    input(data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="19").gpio-checkbox
-            div.col-xs-6.col-sm-4.col-md-3.col-lg-3
-                input(data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="16").gpio-checkbox
-                div.pull-right 
-                    span GPIO 16
-        div.row
-            div.col-xs-6.col-sm-4.col-md-3.col-lg-3.col-sm-offset-2.col-md-offset-3.col-lg-offset-3
-                span GPIO 26
-                div.pull-right
-                    input(data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="26").gpio-checkbox
-            div.col-xs-6.col-sm-4.col-md-3.col-lg-3
-                input(data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="20").gpio-checkbox
-                div.pull-right 
-                    span GPIO 20 (MOSI)
-        div.row
-            div.col-xs-6.col-sm-4.col-md-3.col-lg-3.col-sm-offset-2.col-md-offset-3.col-lg-offset-3
-                span Ground
-            div.col-xs-6.col-sm-4.col-md-3.col-lg-3
-                input(data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="21").gpio-checkbox
-                div.pull-right 
-                    span GPIO 21 (SCKL)
-            
+      h1 Gpio Status
+      table.table.table-sm.mt-3
+        tr
+          td.table-active
+              span 3.3V
+          td.table-active
+              div.float-right 
+                  span 5V
+        tr
+          td
+              span GPIO 2 (SDA)
+              div.float-right
+                  input(data-size="small" data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="2").gpio-checkbox
+          td
+              div.float-right 
+                  span 5V
+        tr
+          td
+              span GPIO 3 (SCL)
+              div.float-right
+                  input(data-size="small" data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="3").gpio-checkbox
+          td
+              div.float-right 
+                  span Ground
+        tr
+          td
+              span GPIO 4 (GPCLK0)
+              div.float-right
+                  input(data-size="small" data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="4").gpio-checkbox
+          td
+              input(data-size="small" data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="14").gpio-checkbox
+              div.float-right 
+                  span GPIO 14 (TXD)
+        tr
+          td
+              span Ground
+          td
+              input(data-size="small" data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="15").gpio-checkbox
+              div.float-right 
+                  span GPIO 15 (RXD)
+        tr
+          td
+              span GPIO 17
+              div.float-right
+                  input(data-size="small" data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="17").gpio-checkbox
+          td
+              input(data-size="small" data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="18").gpio-checkbox
+              div.float-right 
+                  span GPIO 18 (PCM_C)
+        tr
+          td
+              span GPIO 27 (PCM_D)
+              div.float-right
+                  input(data-size="small" data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="27").gpio-checkbox
+          td
+              div.float-right 
+                  span Ground
+        tr
+          td
+              span GPIO 22
+              div.float-right
+                  input(data-size="small" data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="22").gpio-checkbox
+          td
+              input(data-size="small" data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="23").gpio-checkbox
+              div.float-right 
+                  span GPIO 23
+        tr
+          td
+              span 3.3V
+          td
+              input(data-size="small" data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="24").gpio-checkbox
+              div.float-right 
+                  span GPIO 24
+        tr
+          td
+              span GPIO 10 (MOSI)
+              div.float-right
+                  input(data-size="small" data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="10").gpio-checkbox
+          td
+              div.float-right
+                  span Ground
+        tr
+          td
+              span GPIO 9 (MISO)
+              div.float-right
+                  input(data-size="small" data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="9").gpio-checkbox
+          td
+              input(data-size="small" data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="25").gpio-checkbox
+              div.float-right 
+                  span GPIO 25
+        tr
+          td
+              span GPIO 11 (SCKL)
+              div.float-right
+                  input(data-size="small" data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="11").gpio-checkbox
+          td
+              input(data-size="small" data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="8").gpio-checkbox
+              div.float-right 
+                  span GPIO 8 (CE0)
+        tr
+          td
+              span Ground
+          td
+              input(data-size="small" data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="7").gpio-checkbox
+              div.float-right 
+                  span GPIO 7 (CE1)
+        tr
+          td
+              span ID_SD
+          td 
+              div.float-right 
+                  span ID_SC
+        tr
+          td
+              span GPIO 5
+              div.float-right
+                  input(data-size="small" data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="5").gpio-checkbox
+          td
+              div.float-right 
+                  span Ground
+        tr
+          td
+              span GPIO 6
+              div.float-right
+                  input(data-size="small" data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="6").gpio-checkbox
+          td
+              input(data-size="small" data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="12").gpio-checkbox
+              div.float-right 
+                  span GPIO 12
+        tr
+          td
+              span GPIO 13
+              div.float-right
+                  input(data-size="small" data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="13").gpio-checkbox
+          td
+              div.float-right 
+                  span Ground
+        tr
+          td
+              span GPIO 19 (MISO)
+              div.float-right
+                  input(data-size="small" data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="19").gpio-checkbox
+          td
+              input(data-size="small" data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="16").gpio-checkbox
+              div.float-right 
+                  span GPIO 16
+        tr
+          td
+              span GPIO 26
+              div.float-right
+                  input(data-size="small" data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="26").gpio-checkbox
+          td
+              input(data-size="small" data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="20").gpio-checkbox
+              div.float-right 
+                  span GPIO 20 (MOSI)
+        tr
+          td
+              span Ground
+          td
+              input(data-size="small" data-toggle="toggle" data-onstyle="success" data-offstyle="danger" type="checkbox" data-gpio="21").gpio-checkbox
+              div.float-right 
+                  span GPIO 21 (SCKL)
+          
