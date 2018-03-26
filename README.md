@@ -1,4 +1,6 @@
 # Raspberry-Pi-Simple-Web-GPIO-GUI
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/spielhoelle/raspberrypi-node-GPIO-GUI.svg)](https://greenkeeper.io/)
 Simple Node.JS Webserver for controlling GPIOs of the Raspberry Pi
 
 Tutorial (english): https://tutorials-raspberrypi.com/setup-raspberry-pi-node-js-webserver-control-gpios/
